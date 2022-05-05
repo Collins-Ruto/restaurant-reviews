@@ -1,8 +1,14 @@
 import express from "express";
-import RestaurantsController from "./restaurants.controller.js";
+import RestaurantsCtrl from "./restaurants.controller.js";
+import ReviewsCtrl from "./reviews.controller.js";
 
 const router = express.Router();
 
-router.route("/").get(RestaurantsController.apiGetRestaurants);
+router.route("/").get(RestaurantsCtrl.apiGetRestaurants);
+router
+  .route("/review")
+  .post(ReviewsCtrl.apiPostReview)
+  .delete(ReviewsCtrl.apiDeleteReview)
+  .put(ReviewsCtrl.apiUpdateReview);
 
 export default router;
