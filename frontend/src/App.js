@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import AddReview from "./components/AddReview";
 import Restaurant from "./components/Restaurants";
@@ -40,7 +39,7 @@ function App() {
                 logout {user.name}
               </a>
             ) : (
-              <Link onClick={login} to="/login" className="nav-link">
+              <Link to="/login" className="nav-link">
                 Login
               </Link>
             )}
