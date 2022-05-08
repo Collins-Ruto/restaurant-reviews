@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="navbar navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark bg-dark">
         <a href="/restaurants" className="navbar-header">
           Restaurant Reviews
         </a>
