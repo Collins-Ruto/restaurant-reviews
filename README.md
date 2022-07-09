@@ -7,6 +7,8 @@ I'm learning using Free-code camp youtube video by [Beau Carnes](https://github.
 MERN Stack Course - ALSO: Convert Backend to Serverless with MongoDB Realm <br>
 The Youtube video can be found [here](https://www.youtube.com/watch?v=mrHNSanmqQ4)<br>
 
+The app is currently available at [restaurantsreview.netlify.com](https://restaurantsreview.netlify.com)
+
 ## Why this repo? 
 
 Since the video was made with older versions of react, most of the stuff break with the current version, This is especially in the case of react-router-dom.<br>
